@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-gctk
+  namespace: jvm-build-cefi-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:e9ca5682c1c68878612f8fb89c38ea41c9b41e19e223c8c2b23c302ad0e074b1
+        name: container-image
+        resources: {}
+status: {}
