@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-gctk
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:6e603da364d14ca195d4fad604e6d6f4
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:e9ca5682c1c68878612f8fb89c38ea41c9b41e19e223c8c2b23c302ad0e074b1
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

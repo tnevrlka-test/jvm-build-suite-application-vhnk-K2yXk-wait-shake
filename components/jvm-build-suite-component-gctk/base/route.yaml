@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-gctk
     app.kubernetes.io/part-of: jvm-build-suite-application-vhnk
-  name: jvm-build-suite-componentrzuq
+  name: jvm-build-suite-componentoayf
   namespace: jvm-build-cefi-tenant
 spec:
   port:
